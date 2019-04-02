@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (expandableLayout1.isExpanded()) {
                     expandableLayout1.collapse();
-                    iv.animate().rotation(180).start();//startAnimation(AnimationUtils.loadAnimation(getApplicationContext(),R.anim.clockwise));
+                    iv.animate().rotation(180).start();//startAnimation(AnimationUtils.loadAnimation(getApplicationContext(),R.anim.rotate_clockwise));
                 } else {
                     expandableLayout1.expand();
-                    iv.animate().rotation(0).start();//startAnimation(AnimationUtils.loadAnimation(getApplicationContext(),R.anim.anti_clockwise));
+                    iv.animate().rotation(0).start();//startAnimation(AnimationUtils.loadAnimation(getApplicationContext(),R.anim.roate_anti_clockwise));
                 }
             }
         });
