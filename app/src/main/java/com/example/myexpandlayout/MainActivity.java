@@ -1,9 +1,8 @@
 package com.example.myexpandlayout;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.example.myexpandlayout.expand.ExpandableLayout;
@@ -22,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         expandableLayout1 = findViewById(R.id.expandable_layout_1);
         iv = findViewById(R.id.iv);
 
-
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,6 +33,5 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
     }
 }
